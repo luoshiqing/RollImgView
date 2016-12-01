@@ -12,6 +12,8 @@
 		D64DC2781DF018B3004332E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64DC2761DF018B3004332E1 /* Main.storyboard */; };
 		D64DC27A1DF018B3004332E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64DC2791DF018B3004332E1 /* Assets.xcassets */; };
 		D64DC27D1DF018B3004332E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64DC27B1DF018B3004332E1 /* LaunchScreen.storyboard */; };
+		D64DC2851DF01A0E004332E1 /* RollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DC2841DF01A0E004332E1 /* RollView.swift */; };
+		D64DC2871DF0223F004332E1 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D64DC2861DF0223F004332E1 /* 111.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D64DC2791DF018B3004332E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64DC27C1DF018B3004332E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64DC27E1DF018B3004332E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64DC2841DF01A0E004332E1 /* RollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollView.swift; sourceTree = "<group>"; };
+		D64DC2861DF0223F004332E1 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		D64DC2711DF018B2004332E1 /* RollImgView */ = {
 			isa = PBXGroup;
 			children = (
+				D64DC28A1DF02A4E004332E1 /* img */,
 				D64DC2721DF018B3004332E1 /* AppDelegate.swift */,
 				D64DC2741DF018B3004332E1 /* ViewController.swift */,
+				D64DC2841DF01A0E004332E1 /* RollView.swift */,
 				D64DC2761DF018B3004332E1 /* Main.storyboard */,
 				D64DC2791DF018B3004332E1 /* Assets.xcassets */,
 				D64DC27B1DF018B3004332E1 /* LaunchScreen.storyboard */,
 				D64DC27E1DF018B3004332E1 /* Info.plist */,
 			);
 			path = RollImgView;
+			sourceTree = "<group>";
+		};
+		D64DC28A1DF02A4E004332E1 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D64DC2861DF0223F004332E1 /* 111.jpg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64DC27D1DF018B3004332E1 /* LaunchScreen.storyboard in Resources */,
+				D64DC2871DF0223F004332E1 /* 111.jpg in Resources */,
 				D64DC27A1DF018B3004332E1 /* Assets.xcassets in Resources */,
 				D64DC2781DF018B3004332E1 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64DC2851DF01A0E004332E1 /* RollView.swift in Sources */,
 				D64DC2751DF018B3004332E1 /* ViewController.swift in Sources */,
 				D64DC2731DF018B3004332E1 /* AppDelegate.swift in Sources */,
 			);
